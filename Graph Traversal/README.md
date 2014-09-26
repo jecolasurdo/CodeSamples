@@ -10,7 +10,7 @@ Decision trees would be created in MS Visio as a flow chart. The add-in then
   - translated it into a digraph (this object here: https://github.com/jecolasurdo/CodeSamples/blob/master/Graph%20Traversal/GraphObjects/ImmutableGraph.cs), 
   - and then determined all pathways through the graph (including loops, which were each permitted to be traversed once per unique outcome).
 
-This process all hinges on an algorythm for traversing the graph, which can be viewed here: https://github.com/jecolasurdo/CodeSamples/blob/master/Graph%20Traversal/GraphObjects/EdgeCollection.cs#L18
+This process all hinges on an algorithm for traversing the graph, which can be viewed here: https://github.com/jecolasurdo/CodeSamples/blob/master/Graph%20Traversal/GraphObjects/EdgeCollection.cs#L18
 
 Initially, I looked into using someone else's graph library to handle this task, but I couldn't find any libraries that were super lightweight and simple. The requirements of the project weren't such that I needed a super heavy weight graph library, so I concluded that writing it myself would be sufficient (and it has been, so far).
 
